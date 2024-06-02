@@ -26,14 +26,6 @@ const PinSchema = new Schema({
     type: String,
     required: true,
   },
-  travelTime: {
-    type: String,
-    required: true,
-  },
-  mode: {
-    type: String,
-    required: true,
-  },
   distance: {
     type: String,
     required: true,
